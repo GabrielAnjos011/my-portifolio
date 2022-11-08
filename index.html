@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/rolagem.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Gabriel Garcia</title>
+  </head>
+
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="src/images/foto-perfil.jpg" alt="foto de perfil" />
+        <h1 class="nome">Gabriel Garcia</h1>
+        <h2 class="cargo">Desenvolvedor FullStack</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="src/images/sobre.gif" alt="icone sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="src/images/coracao.gif" alt="icone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+            <div class="descricao">
+              <p>Oi! meu nome é Gabriel Garcia dos Anjos, seja bem-vindo(a)!</p>
+              <p>
+                Sou formado em Gestão da Tecnologia da Informação e Análise e
+                Desenvolvimento de Sistemas, ambas cursadas na instituição UNIP.
+                Gosto de solucionar problemas e facilitar a vida do próximo com
+                o meu conhecimento em tecnologia. Comecei a minha jornada
+                utilizando: <span>HTML, CSS e JavaScript</span>. E os desafios
+                no mercado de trabalho me fez eu buscar conhecimento para
+                evoluir cada vez mais, e foi nessa busca que me aperfeiçoei em
+                <span>React, Node, Git, PostgreSQL e Docker</span>. E não para
+                por aqui...
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="src/assets/Curriculo-Gabriel-Garcia(Fullstack).pdf"
+                  target="_blank"
+                  class="curriculo"
+                  download="Curriculo-Gabriel-Garcia"
+                  >Curriculo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/gabrielgarcia011/"
+                  target="_blank"
+                  class="linkedin"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/GabrielAnjos011"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
